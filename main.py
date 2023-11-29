@@ -18,5 +18,5 @@ if data_file is not None:
 
   st.header('Show data information')
   buffer = io.StringIO()
-  df.infor(buf=buffer)
+  df.info(buf=buffer)
   st.text(buffer.getvalue())
